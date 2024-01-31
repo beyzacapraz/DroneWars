@@ -52,6 +52,7 @@ In addition to that, we have created a game parameter script. We created it as p
 
 We also created a Tag holder script for storing the tag names. The reason and the implementation are the same as the game parameter script. 
 
+![drone_wars](https://github.com/beyzacapraz/DroneWars/blob/main/image%20(1).png?raw=true)
 # VR Player
 
 In the last 2 weeks, we added some extra features to our PC player but, our focus was to convey the game to the VR player. We had created another drone wars project and installed a VR extension to it. We transformed our assets into the VR player project and pressed the build and run button. After changing some inputs to make our game playable in the VR, our job was over. For example, instead of checking whether we pressed the left click of the mouse or not, we checked the input according to the VR console. 
