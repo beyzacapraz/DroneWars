@@ -27,7 +27,9 @@ After we chose which approach to use, we created a bullet prefab and added a rig
 We also implemented a reload mechanism and a simple animation of it. We used the Lean Tween package of Unity to make a simple animation of the reload operation. 
 If “R” is pressed, then the coroutine Reload function would be called.  
 
-![image](https://github.com/beyzacapraz/DroneWars/blob/main/image%20(2).png?raw=true)
+![image](https://github.com/beyzacapraz/DroneWars/blob/main/image%20(2).png?raw=true)  
+![image_4](https://github.com/beyzacapraz/DroneWars/blob/main/image%20(4).png?raw=true)  
+
 
 # Drones
 
@@ -37,6 +39,8 @@ While implementing these drones we did not use prefabs, we used a pool mechanism
 The bullet mechanism of the enemy and AI drones are like the guns. In addition to these features, shooting a drone increases the score by 5, and shooting the health drone increases also the health of the player. We wanted to give the player the feeling of gaining health, so we added a simple animation when we shot the health drone. A huge plus-signed object is approaching the PC player, when we shoot the health drone.  
 
 Finally, when we shoot the bomb drone, it can destroy objects located within a specified radius. The points of the destroyed objects are calculated together and added to the total score. If the health drone is in the specified radius, the health of the player also increases.  
+
+![AI_drone](https://github.com/beyzacapraz/DroneWars/blob/main/image%20(3).png?raw=true)  
 
 # UI And Extras
 
