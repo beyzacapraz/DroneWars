@@ -27,7 +27,9 @@ After we chose which approach to use, we created a bullet prefab and added a rig
 We also implemented a reload mechanism and a simple animation of it. We used the Lean Tween package of Unity to make a simple animation of the reload operation. 
 If “R” is pressed, then the coroutine Reload function would be called.  
 
-![image](https://github.com/beyzacapraz/DroneWars/blob/main/image%20(2).png?raw=true)
+![image](https://github.com/beyzacapraz/DroneWars/blob/main/image%20(2).png?raw=true)  
+![image_4](https://github.com/beyzacapraz/DroneWars/blob/main/image%20(4).png?raw=true)  
+
 
 # Drones
 
