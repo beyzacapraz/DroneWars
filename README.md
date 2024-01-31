@@ -38,6 +38,8 @@ The bullet mechanism of the enemy and AI drones are like the guns. In addition t
 
 Finally, when we shoot the bomb drone, it can destroy objects located within a specified radius. The points of the destroyed objects are calculated together and added to the total score. If the health drone is in the specified radius, the health of the player also increases.  
 
+![AI_drone](https://github.com/beyzacapraz/DroneWars/blob/main/image%20(3).png?raw=true)  
+
 # UI And Extras
 
 In our game, the player, enemy drone, and AI drone have a health bar of their own. According to the player’s damage, the health of the drones is decreased. The damage of the drones is the same. 
