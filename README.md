@@ -27,6 +27,8 @@ After we chose which approach to use, we created a bullet prefab and added a rig
 We also implemented a reload mechanism and a simple animation of it. We used the Lean Tween package of Unity to make a simple animation of the reload operation. 
 If “R” is pressed, then the coroutine Reload function would be called.  
 
+![image](https://github.com/beyzacapraz/DroneWars/blob/main/image%20(2).png?raw=true)
+
 # Drones
 
 We have implemented 5 different kinds of drones having 3 movement features: standing, running, and rotating. Drones are health drones, enemy drones, bomb drones, normal drones, and AI drones.  Health and enemy drones are both standing and rotating. The bomb drone is running, and the normal drone is both rotating and running. AI drone is not doing a specific movement, its movement is random. We have prepared the drones to appear at regular intervals, and standing drones also appear at various locations at specific time intervals. AI and enemy drones also shoot the player using their bullets.  
